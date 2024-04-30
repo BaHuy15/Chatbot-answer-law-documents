@@ -6,10 +6,10 @@
         <img alt="figure 3: Example 3:"src="./figure/3.png" width="100%"/>  
     </a>
 </div>
-## Table of Contents
 
+## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Install Requirements](#Install-Requirements)
+- [Getting Started](#Getting Started)
 - [Create and activate virtual environment](#Create-and-activate-virtual-environment)
 - [Data Format](#Data-Format)
 - [Generate auto-augmented data](#Generate-augmentation-data)
@@ -17,4 +17,37 @@
 - [Citation](#Citation)
 - [Acknowledgement](#Acknowledgements)
 
-## Install Requirements
+## Getting Started
+
+To install chatbot, follow these steps:
+
+1. Install uv - Python Package manager
+>> link: https://github.com/astral-sh/uv
+
+
+
+2. Clone the my repository
+<details><summary> <b>Expand</b> </summary> 
+
+``` shell 
+git clone git@github.com:BaHuy15/Chatbot-answer-law-documents.git
+```                                   
+</details>  
+3 .Create a virtual environment and install the required dependencies 
+(you can use any virtual environment manager):
+<details>
+
+``` shell 
+uv venv
+
+# On macOS and Linux.
+source .venv/bin/activate
+
+# On Windows.
+.venv\Scripts\activate
+
+uv pip install -r requirements.txt
+```                                   
+</details>  
+
+
