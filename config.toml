@@ -1,0 +1,50 @@
+[STORAGE]
+SQLITE_DB = "db/devika.db"
+SCREENSHOTS_DIR = "screenshots"
+PDFS_DIR = "pdfs"
+PROJECTS_DIR = "projects"
+LOGS_DIR = "logs"
+REPOS_DIR = "repos"
+Embedded_mode ="openai"
+
+[LOAD_FILE]
+CSV ="data/concatenated_data.csv "
+websites_list = [
+                "https://ai-on-openshift.io/getting-started/openshift/",
+                "https://ai-on-openshift.io/getting-started/opendatahub/",
+                "https://ai-on-openshift.io/getting-started/openshift-ai/",
+                "https://ai-on-openshift.io/odh-rhoai/configuration/",
+                "https://ai-on-openshift.io/odh-rhoai/custom-notebooks/",
+                "https://ai-on-openshift.io/odh-rhoai/nvidia-gpus/",
+                "https://ai-on-openshift.io/odh-rhoai/custom-runtime-triton/",
+                "https://ai-on-openshift.io/odh-rhoai/openshift-group-management/",
+                "https://ai-on-openshift.io/tools-and-applications/minio/minio/",
+                "https://access.redhat.com/articles/7047935",
+                "https://access.redhat.com/articles/rhoai-supported-configs",
+            ]
+
+[SAVE_DB]
+DB ="data/faiss_index"
+LawDB ="data/law_faiss_index"
+
+
+
+[API_KEYS]
+BING = "<YOUR_BING_API_KEY>"
+CLAUDE = "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"
+NETLIFY = "<YOUR_NETLIFY_API_KEY>"
+OPENAI = "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"
+
+[API_ENDPOINTS]
+BING = "https://api.bing.microsoft.com/v7.0/search"
+
+[PGVECTOR_BD]
+PGVECTOR_DRIVER='psycopg2'
+PGVECTOR_USER='bahuy'
+PGVECTOR_PASSWORD='huy152001'
+PGVECTOR_HOST='127.0.0.1'
+PGVECTOR_PORT=8080
+PGVECTOR_DATABASE='mydb'
+
+[Data]
+
