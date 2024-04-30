@@ -58,9 +58,12 @@ uv pip install -r requirements.txt
 ```                                   
 </details>
 
-4. Setup API keys:
-Put your key in config.toml file
-
+4. Setup API keys:                 
+Put your key in config.toml file    
+``` shell 
+[API_KEYS]
+OPENAI = "<YOUR_OPENAI_KEY>"    
+```   
 
 ## Run application
 ``` shell 
