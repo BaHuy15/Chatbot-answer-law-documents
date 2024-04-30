@@ -8,13 +8,20 @@
 </div>
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
+- [Overview](#Overview)
 - [Getting Started](#Getting-Started)
 - [Run application](#Run-application)
 - [Result](#Result)
 - [Citation](#Citation)
 - [Acknowledgement](#Acknowledgements)
 
+## Overview
+A simple chatbot project, using GPT model to answer VietNamese 's VAT taxation. In this project, I used
+- Embedding model: "bkai-foundation-models/vietnamese-bi-encoder"
+  I did many experiments to choose embedding model, and generated answers using vietnamese-bi-encoder embedding model is more revelant to the queries than other vietnamese ones.
+- Chunk size/chunk overlap: 512/40
+- Search method: FAISS
+- 
 ## Getting Started
 
 To install chatbot, follow these steps:
@@ -55,9 +62,8 @@ Put your key in config.toml file
 
 ## Run application
 ``` shell 
-python main.py
-
+python main.py  
 ```
-Visit this link to see result: http://localhost:8080/
-FastAPI Endpoint: http://localhost:8080/docs
+Visit this link to see result: http://localhost:8080/                
+FastAPI Endpoint: http://localhost:8080/docs                                               
 
