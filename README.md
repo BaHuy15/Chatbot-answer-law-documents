@@ -9,10 +9,8 @@
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Getting Started](#Getting Started)
-- [Create and activate virtual environment](#Create-and-activate-virtual-environment)
-- [Data Format](#Data-Format)
-- [Generate auto-augmented data](#Generate-augmentation-data)
+- [Getting Started](#Getting-Started)
+- [Run application](#Run-application)
 - [Result](#Result)
 - [Citation](#Citation)
 - [Acknowledgement](#Acknowledgements)
@@ -22,7 +20,7 @@
 To install chatbot, follow these steps:
 
 1. Install uv - Python Package manager
->> link: https://github.com/astral-sh/uv
+link: https://github.com/astral-sh/uv
 
 
 
@@ -33,7 +31,8 @@ To install chatbot, follow these steps:
 git clone git@github.com:BaHuy15/Chatbot-answer-law-documents.git
 ```                                   
 </details>  
-3 .Create a virtual environment and install the required dependencies 
+
+3. Create a virtual environment and install the required dependencies 
 (you can use any virtual environment manager):
 <details>
 
@@ -48,6 +47,17 @@ source .venv/bin/activate
 
 uv pip install -r requirements.txt
 ```                                   
-</details>  
+</details>
 
+4. Setup API keys:
+Put your key in config.toml file
+
+
+## Run application
+``` shell 
+python main.py
+
+```
+Visit this link to see result: http://localhost:8080/
+FastAPI Endpoint: http://localhost:8080/docs
 
