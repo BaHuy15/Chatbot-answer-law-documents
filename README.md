@@ -6,3 +6,15 @@
         <img alt="figure 3: Example 3:"src="./figure/3.png" width="100%"/>  
     </a>
 </div>
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Install Requirements](#Install-Requirements)
+- [Create and activate virtual environment](#Create-and-activate-virtual-environment)
+- [Data Format](#Data-Format)
+- [Generate auto-augmented data](#Generate-augmentation-data)
+- [Result](#Result)
+- [Citation](#Citation)
+- [Acknowledgement](#Acknowledgements)
+
+## Install Requirements
