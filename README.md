@@ -21,7 +21,10 @@ A simple chatbot project, using GPT model to answer VietNamese 's VAT taxation. 
   I did many experiments to choose embedding model, and generated answers using vietnamese-bi-encoder embedding model is more revelant to the queries than other vietnamese ones.
 - Chunk size/chunk overlap: 512/40
 - Search method: FAISS
-- 
+- LLM: GPT4-Turbo	
+
+
+
 ## Getting Started
 
 To install chatbot, follow these steps:
@@ -66,4 +69,5 @@ python main.py
 ```
 Visit this link to see result: http://localhost:8080/                
 FastAPI Endpoint: http://localhost:8080/docs                                               
+![image](https://github.com/BaHuy15/Chatbot-answer-law-documents/assets/90911918/b2ad0199-e576-4842-9617-71d5fc5a0722)
 
