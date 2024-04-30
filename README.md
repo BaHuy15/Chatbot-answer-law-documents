@@ -12,7 +12,6 @@
 - [Getting Started](#Getting-Started)
 - [Run application](#Run-application)
 - [Result](#Result)
-- [Citation](#Citation)
 - [Acknowledgement](#Acknowledgements)
 
 ## Overview
@@ -68,6 +67,9 @@ Put your key in config.toml file
 python main.py  
 ```
 Visit this link to see result: http://localhost:8080/                
-FastAPI Endpoint: http://localhost:8080/docs                                               
+FastAPI Endpoint: http://localhost:8080/docs 
+
+## Result
+This is the result of all my experiments
 ![image](https://github.com/BaHuy15/Chatbot-answer-law-documents/assets/90911918/b2ad0199-e576-4842-9617-71d5fc5a0722)
 
