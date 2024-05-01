@@ -33,7 +33,7 @@ LawDB ="data/law_faiss_index"
 BING = "<YOUR_BING_API_KEY>"
 CLAUDE = "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"
 NETLIFY = "<YOUR_NETLIFY_API_KEY>"
-OPENAI = "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"
+OPENAI = "<YOUR_API_KEY>"
 
 [API_ENDPOINTS]
 BING = "https://api.bing.microsoft.com/v7.0/search"
